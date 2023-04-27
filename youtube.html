@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clone.YouTube</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+</head>
+<body><!-- header , nav works same as div -->
+  <header class="header">
+    <div class="left-section">
+    <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+    <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+
+      <button class="search-button">
+<img class="search-icon" src="icons/search.svg">
+<div class="tooltip">Search</div>      
+</button>
+<!-- put position absolute inside position relative -->
+      <button class="voice-search-button">
+<img class="voice-search-icon" src="icons/voice-search-icon.svg">
+<div class="tooltip">Search with your voice</div> 
+</button>
+
+    </div>
+  <div class="right-section"> 
+    <div class="upload-icon-container">
+      <img class="upload-icon" src="icons/upload.svg"> 
+      <div class="tooltip">Creat</div>
+    </div>
+   
+   <div class="youtube-apps-icon-container"> 
+    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+    <div class="tooltip">YASH</div>  
+   </div>
+   
+   
+    <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">notifications</div> 
+    </div>
+  
+  <div class="user-picture-container">
+    <img class="current-user-pictures" src="channel-pic/unnamed.jpg">
+  <div class="tooltip">profile</div>
+  </div>
+  
+  </div>
+  
+  
+  </header>
+
+
+<!--  navigation tag macheen read it well-->
+<nav class="sidebar">
+  <div class="sidebar-link">
+    <img src="icons/home.svg">
+    <div>Home</div>
+</div>
+  <div class="sidebar-link">
+    <img src="icons/explore.svg">
+    <div>Explore</div>
+</div>
+  <div class="sidebar-link">
+    <img src="icons/subscriptions.svg">
+    <div>Subscriptons</div>
+</div>
+  <div class="sidebar-link">
+    <img src="icons/originals.svg">
+    <div>Originals</div>
+</div>
+  <div class="sidebar-link">
+    <img src="icons/youtube-music.svg">
+    <div>YouTube Music</div>
+</div>
+  <div class="sidebar-link">
+    <img src="icons/library.svg">
+    <div>Library</div>
+ </div>
+</nav>
+
+
+
+<main><!--   main body  -->
+<div class="viedo-grid">
+  <div class="viedo-priview">
+    <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><!--   viedo link from og youtube-->
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+</a>
+      <div class="video-time">14:20</div>
+    </div>
+    <div class="viedo-info-grid"> 
+      <div class="channel-picture">
+<a href="https://www.youtube.com/@mkbhd"><!--   chanel profile link from og youtube-->  
+        <img class="profile-picture" src="channel-pic/channel-1.jpeg"></div></a>
+      
+      <div class="viedo-info">
+        <p class="viedo-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      <p class="viedo-author">Marques Brownlee</p>
+      <p class="viedo-stats">3.4M views &#183; 6 months ago</p>
+      </div>
+    </div></div>
+      
+    <div class="viedo-priview">
+    <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><!--   viedo link from og youtube-->
+      <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+</a>
+      <div class="video-time">8:22</div>
+    </div>
+    <div class="viedo-info-grid"> 
+      <div class="channel-picture">
+<a href="https://www.youtube.com/@markiplier"><!--   chanel profile link from og youtube-->         
+        <img class="profile-picture" src="channel-pic/channel-2.jpeg"></div></a>
+      <div class="viedo-info">
+        <p class="viedo-title">Try Not To Laugh Challenge #9</p>
+      <p class="viedo-author">Markiplier</p>
+      <p class="viedo-stats">19M views &#183; 4 years ago</p>
+      </div>
+    </div></div>
+    
+    <div class="viedo-priview">
+      <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><!--   viedo link from og youtube-->
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+</a>
+        <div class="video-time">20:00</div>
+      </div>
+      <div class="viedo-info-grid"> 
+        <div class="channel-picture">
+<a href="https://www.youtube.com/@MrBeast"><!--   chanel profile link from og youtube-->
+          <img class="profile-picture" src="channel-pic/channel-3.jpeg"></div></a>
+        <div class="viedo-info">
+          <p class="viedo-title">Anything You Can Fit In The Circle I'll Pay For</p>
+        <p class="viedo-author">MrBeast</p>
+        <p class="viedo-stats">19M views &#183; 4 years ago</p>
+        </div>
+      </div></div>
+    
+      <div class="viedo-priview">
+        <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=9iMGFqMmUFs"><!--   viedo link from og youtube-->
+          <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+</a>
+          <div class="video-time">4:52</div>
+        </div>
+        <div class="viedo-info-grid"> 
+          <div class="channel-picture">
+<a href="https://www.youtube.com/@TEDEd"><!--   chanel profile link from og youtube-->
+            <img class="profile-picture" src="channel-pic/channel-4.jpeg"></div></a>
+          <div class="viedo-info">
+            <p class="viedo-title">What would happen if you didn’t drink water? - Mia Nacamulli</p>
+          <p class="viedo-author">TED-Ed</p>
+          <p class="viedo-stats">12M views &#183; 5 years ago</p>
+          </div>
+        </div></div>
+    
+        <div class="viedo-priview">
+          <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=ZJG1FjH1cEE"><!--   viedo link from og youtube-->
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+</a>
+            <div class="video-time">24:25</div>
+          </div>
+          <div class="viedo-info-grid"> 
+            <div class="channel-picture">
+<a href="https://www.youtube.com/@dhruvrathee"><!--   chanel profile link from og youtube-->
+              <img class="profile-picture" src="channel-pic/channel-5.jpg"></div></a>
+            <div class="viedo-info">
+              <p class="viedo-title">Mystery of Dinosaurs |  How Did They Become Extinct?</p>
+            <p class="viedo-author">Dhruv Rathee</p>
+            <p class="viedo-stats">831K views &#183; 7 hours ago</p>
+            </div>
+          </div></div>
+    
+          <div class="viedo-priview">
+            <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=AbQWzsWPkvY"><!--   viedo link from og youtube-->
+              <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+</a>
+              <div class="video-time">2:30</div>
+            </div>
+            <div class="viedo-info-grid"> 
+              <div class="channel-picture">
+<a href="https://www.youtube.com/channel/UCmZ3FM0vt0Ff3aAa2IstQTQ"><!--   chanel profile link from og youtube-->
+                <img class="profile-picture" src="channel-pic/channel-6.jpg"></div></a>
+              <div class="viedo-info">
+                <p class="viedo-title">Casa de Vidro</p>
+              <p class="viedo-author">VALORANT - Topic</p>
+              <p class="viedo-stats">273K views </p>
+              </div>
+            </div></div>
+    
+            <div class="viedo-priview">
+            <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=iNYgu1CgeS8"><!--   viedo link from og youtube-->
+              <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+</a>
+              <div class="video-time">58:16</div>
+            </div>
+            <div class="viedo-info-grid"> 
+              <div class="channel-picture">
+<a href="https://www.youtube.com/@imtghaziabad523"><!--   chanel profile link from og youtube-->
+                <img class="profile-picture" src="channel-pic/channel-7.jpg"></div></a>
+              <div class="viedo-info">
+                <p class="viedo-title">"IMT Ghaziabad E-Conclave with Ashneer Grover: Decoding Dhandha"</p>
+              <p class="viedo-author">IMT Ghaziabad</p>
+              <p class="viedo-stats">306K views &#183; 8 days ago </p>
+              </div>
+            </div></div>
+    
+            <div class="viedo-priview">
+              <div class="thumbnail-row">
+<a href="https://www.youtube.com/watch?v=A_JQK_k4Kyc"><!--   viedo link from og youtube-->
+                <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+</a>
+                <div class="video-time">14:17</div>
+              </div>
+              <div class="viedo-info-grid"> 
+                <div class="channel-picture">
+<a href="https://www.youtube.com/@CARachanaRanade"><!--   chanel profile link from og youtube-->
+                  <img class="profile-picture" src="channel-pic/channel-8.jpg"></div></a>
+                <div class="viedo-info">
+                  <p class="viedo-title">Tax planning for Individuals | Only 1 week left for March end | CA Rachana Ranade</p>
+                <p class="viedo-author">CA Rachana Phadke Ranade </p>
+                <p class="viedo-stats">71K views &#183; 2 days ago </p>
+                </div>
+              </div></div>
+</div>
+</main>
+</body>
+</html>
